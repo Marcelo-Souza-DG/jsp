@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset=
+<head>
+    <meta charset
+
+<head
+"UTF-8">
+    <meta name=
+    <meta name
+"viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imóveis à Venda e para Aluguel</title>
+    <style>
+        /* Estilos CSS básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 
+        body {
+            font-family: Arial, sans-serif;
+0;
+            padding: 0;
+        }
+
+        header {
+            background-color: 
+        }
+
+        header {
+            background-color:
+#333;
+            color: #fff;
+            text-align: center;
+            padding: 
+            text-align: center;
+            padding: 
+
+            text-align: center;
+            padding:
+
+            text
+20px;
+        }
+
+        nav {
+            background-color: 
+        }
+
+        nav {
+
+        }
+
+       
+#444;
+            text-align: center;
+        }
+
+        nav a {
+            color: 
+            text-align: center;
+        }
+
+        nav a {
+
+            text-align: center;
+        }
+
+        nav a
+
+            text-align: center;
+        }
+
+       
+
+            text-align: center;
+       
+#fff;
+            text-decoration: none;
+            padding: 
+            text-decoration
+
+            text
+10px 20px;
+        }
+
+        nav a:hover {
+            background-color: 
+        }
+
+        nav a
+
+        }
+
+        nav
+
+        }
+
+#555;
+        }
+
+        .container {
+            max-width: 
+        }
+
+        .container {
+            max-width:
+
+        }
+
+        .container {
+            max-width
+
+        }
+
+        .container
+
+        }
+
+       
+1200px;
+            margin: 
+            margin:
+
+            margin
+0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 
+        }
+
+        h2 {
+            margin-top:
+
+        }
+
+        h2 {
+            margin-top
+
+        }
+
+        h2 {
+           
+
+        }
+
+        h2 {
+
+        }
+
+        h2
+
+        }
+
+        h
+
+        }
+
+       
+
+        }
+
+
+       
+30px;
+        }
+
+        /* Estilos para as seções de venda e aluguel */
+        .property-section {
+            margin-bottom: 40px;
+        }
+
+        .property-
+       
+list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 
+            display: flex;
+            flex-wrap: wrap;
+            gap:
+
+            display: flex;
+            flex-wrap: wrap;
+           
+
+            display: flex;
+            flex-wrap: wrap;
+
+            display: flex;
+            flex-wrap: wrap
+
+            display: flex;
+            flex-wrap:
+
+            display: flex;
+            flex-wrap
+
+            display: flex;
+           
+
+            display:
+
+            display
+20px;
+            justify-content: space-between;
+        }
+
+        .property {
+            flex: 
+            justify-content: space-between;
+        }
+
+        .property {
+            flex: 
+
+            justify-content: space-between;
+        }
+
+        .property {
+
+            justify-content: space-between;
+
+            justify
+1;
+            background-color: 
+           
+#f5f5f5;
+            padding: 
+            padding: 
+
+            padding
+20px;
+            border: 
+            border:
+1px solid #ddd;
+        }
+
+        .property img {
+            max-width: 
+        }
+
+        .property img {
+            max-width: 
+
+        }
+
+        .property img {
+            max
+
+        }
+
+        .
+100%;
+            height: auto;
+        }
+
+        
+            height: auto;
+
+            height
+/* Estilos para a seção de contato */
+        .contact-section {
+            background-color: 
+        .contact-section {
+            background-color:
+
+       
+#f9f9f9;
+            padding: 40px;
+        }
+
+        .contact-form {
+            max-width: 
+        }
+
+        .contact-form {
+            max-width:
+
+        }
+
+        .contact-form {
+            max-width
+
+        }
+
+        .contact-form
+
+        }
+
+        .contact
+400px;
+            margin: 
+            margin:
+
+            margin
+0 auto;
+        }
+
+        .contact-form label,
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            display: block;
+            width: 
+        }
+
+        .contact-form label,
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            display: block;
+           
+
+        }
+
+        .contact-form label,
+        .contact-form input,
+        .contact-form
+100%;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            .property {
+                flex: 
+            .
+1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Click_Imoveis_ON</h1>
+    </header>
+
+    <nav>
+        <a href=
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Click_Imoveis_ON</h1
+"#quem-somos">Quem Somos</a>
+        <a href="#venda">Venda</a>
+        <a href="#aluguel">Aluguel</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container" id="quem-somos">
+        <h2>Quem Somos</h2>
+        <p>Um breve resumo sobre nossa empresa e nossa missão.</p>
+    </div>
+
+    <div class="container property-section" id="venda">
+        <h2>Imóveis à Venda</h2>
+        <div class="property-list">
+            <!-- Inclua aqui as fotos e informações dos imóveis à venda -->
+            <div class="property">
+                <img src="imagem1.jpg" alt="Imóvel à Venda 1">
+                <p>Descrição do imóvel à venda 1.</p>
+            </div>
+            <div class="property">
+                <img src="imagem2.jpg" alt="Imóvel à Venda 2">
+                <p>Descrição do imóvel à venda 2.</p>
+            </div>
+            <!-- Adicione mais propriedades conforme necessário -->
+        </div>
+    </div>
+
+    <div class="container property-section" id="aluguel">
+        <h2>Imóveis para Aluguel</h2>
+        <div class="property-list">
+            <!-- Inclua aqui as fotos e informações dos imóveis para aluguel -->
+            <div class="property">
+                <img src="imagem3.jpg" alt="Imóvel para Aluguel 1">
+                <p>Descrição do imóvel para aluguel 1.</p>
+            </div>
+            <div class="property">
+                <img src="imagem4.jpg" alt="Imóvel para Aluguel 2">
+                <p>Descrição do imóvel para aluguel 2.</p>
+            </div>
+            <!-- Adicione mais propriedades conforme necessário -->
+        </div>
+    </div>
+
+    <div class="container contact-section" id="contato">
+        <h2>Entre em Contato</h2>
+        <div class="contact-form">
+            <form action="processar_formulario.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
